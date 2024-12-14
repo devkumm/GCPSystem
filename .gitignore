@@ -4,7 +4,7 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
-
+platinum-logic-426017-v3-ebb1ab63c365.json
 # Crash log files
 crash.log
 crash.*.log
