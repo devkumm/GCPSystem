@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "static" {
- name          = "gcp_bucket"
+ name          = "gcp-bucket-unique-01"
  location      = "US"
  storage_class = "STANDARD"
 
