@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+       //  stage('Checkout') {
             steps {
                 git branch: 'main', credentialsId: '<CREDS>', url: 'git@github.com:devkumm/GCPSystem.git'
             }
-        }
+        }//
         stage('Terraform init') {
             steps {
                 sh 'terraform init'
